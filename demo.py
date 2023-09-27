@@ -1,5 +1,6 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+def cubic_root(x):
+    return x ** (1/3)
 
-dataset = pd.read_csv()
+a = 8
+
+print("can bac 3 cua", a, " la",cubic_root(a))
